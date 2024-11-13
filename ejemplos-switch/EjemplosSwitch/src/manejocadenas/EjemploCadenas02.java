@@ -16,6 +16,9 @@ public class EjemploCadenas02 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         // 
+        
+        /*para realizar cadenas guardando el valor anterior de la variable 
+        a utilizar String.format*/
         entrada.useLocale(Locale.US);
         String cadenaFinal = "Datos Ingresados\n";
         
@@ -30,14 +33,14 @@ public class EjemploCadenas02 {
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
         
-        cadenaFinal = String.format("%sProvincia:%s\n",  
+        cadenaFinal = String.format("%sProvincia: %s\n",  
                 cadenaFinal,
                 provincia);
         
         System.out.println("Ingrese la país");
         String pais = entrada.nextLine(); // 
         
-        cadenaFinal = String.format("%sPaís:%s\n",  
+        cadenaFinal = String.format("%sPaís: %s\n",  
                 cadenaFinal, 
                 pais);
         

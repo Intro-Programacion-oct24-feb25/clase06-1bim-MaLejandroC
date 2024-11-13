@@ -58,11 +58,29 @@ public class ComercioTres {
         
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
-        if (porcentajeSeguro>=1 && porcentajeSeguro<=15){
-            porcentajeSeguro = porcentajeSeguro + 0 ;
-        }else{
+        // opción 1
+        /*if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
+            porcentajeSeguro = porcentajeSeguro + 0;
+        } else {
             porcentajeSeguro = 10;
         }
+
+        // opción 2
+        if (porcentajeSeguro > 15) {
+            porcentajeSeguro = 10;
+        }
+
+         // opción 3
+        if (porcentajeSeguro < 1 || porcentajeSeguro > 15) {
+            porcentajeSeguro = 10;
+        }
+
+        // opción 4
+        if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
+            porcentajeSeguro = 10;
+        }
+        */
+        
         if (productividad<=30){
             bono = 25; // $25
         }else{

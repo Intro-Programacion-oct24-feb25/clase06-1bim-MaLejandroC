@@ -61,7 +61,7 @@ public class ComercioTres {
         
 
         //opción 1
-        /*if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
+        if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
             porcentajeSeguro = porcentajeSeguro + 0;
         } else {
             porcentajeSeguro = 10;

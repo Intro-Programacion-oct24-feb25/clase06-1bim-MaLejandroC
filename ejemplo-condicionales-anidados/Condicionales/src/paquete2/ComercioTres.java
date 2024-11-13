@@ -58,27 +58,36 @@ public class ComercioTres {
         
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
-        // opción 1
+        
+
+        //opción 1
         /*if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
             porcentajeSeguro = porcentajeSeguro + 0;
         } else {
             porcentajeSeguro = 10;
         }
-
+        /*estas solucion funciona correctamente, ya que designamos un rango 
+        determinado a la condicion para que asi pueda ser cierta de mejor 
+        manera/
         // opción 2
         if (porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
+        //esta solucion es invalida ya que no abarca loa numeros negativos
 
          // opción 3
         if (porcentajeSeguro < 1 || porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
-
+        //esta opcion tambien es valida ya que hacemos el contrario 
+        de la regla que tenemos de enunciado abarcando el rando para un 
+        descuento determinado en este caso 10
         // opción 4
         if (porcentajeSeguro < 1 && porcentajeSeguro > 15) {
             porcentajeSeguro = 10;
         }
+        esta opcion es invalida ya que no hay numeros negativos mayores 
+        que 15. no se cumpliria nunca la condicion 
         */
         
         if (productividad<=30){

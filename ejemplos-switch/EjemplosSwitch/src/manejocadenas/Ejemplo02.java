@@ -11,12 +11,12 @@ package manejocadenas;
  */
 public class Ejemplo02 {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         String pais;
-        
+        //Hay que contar desde 0 
         pais = "Ecuador";
         //      0123456
-        char letra = pais.charAt(0);
+        char letra = pais.charAt(6);
         System.out.printf("%s\n", letra);
         
     }

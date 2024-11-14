@@ -43,6 +43,7 @@ public class Ejemplo031 {
 
         
         nombre = nombre.toLowerCase();
+        apellido = apellido.toLowerCase();
         // nombre = "atacames"
         char valor = nombre.charAt(0); // obtener el primer caracter de una
         // ANA DIAZ con edad 19, es estudiante de UTPL
